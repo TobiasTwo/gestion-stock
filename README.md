@@ -1,8 +1,51 @@
-# React + Vite
+# 🏪 Gestion de Stock - Application Web React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Description
+Une application web de gestion de stock avec deux interfaces distinctes :  
+- **Administrateur** : Gestion des produits, stocks, commandes et utilisateurs.  
+- **Client** : Consultation du catalogue, gestion du panier, suivi des commandes.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
+
+### 🔹 Interface Administrateur  
+✅ Tableau de bord avec vue d'ensemble  
+✅ Gestion des produits (CRUD)  
+✅ Suivi des stocks  
+✅ Gestion des commandes  
+✅ Gestion des utilisateurs  
+
+### 🔹 Interface Client  
+✅ Catalogue de produits avec détails  
+✅ Système de panier  
+✅ Suivi des commandes  
+✅ Profil utilisateur  
+✅ Système de paiement  
+
+---
+
+## 🛠 Technologies Utilisées  
+- ⚛️ **React** (Framework frontend)  
+- ⚡ **Vite** (Build ultra rapide)  
+- 🚦 **React Router DOM** (Gestion de navigation)  
+- 🎨 **Tailwind CSS** (Styling moderne)  
+- 🍪 **JS-Cookie** (Gestion des cookies)  
+- 🔗 **Axios** (Requêtes API)  
+
+---
+
+## 📦 Installation  
+
+```bash
+# 1. Cloner le repository
+git clone https://github.com/votre-username/gestion-stock.git
+
+# 2. Se déplacer dans le dossier
+cd gestion-stock
+
+# 3. Installer les dépendances
+npm install
+
+# 4. Lancer l'application en mode développement
+npm run dev
