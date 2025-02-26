@@ -31,7 +31,7 @@ Une application web de gestion de stock avec deux interfaces distinctes :
 - 🚦 **React Router DOM** (Gestion de navigation)  
 - 🎨 **Tailwind CSS** (Styling moderne)  
 - 🍪 **JS-Cookie** (Gestion des cookies)  
-- 🔗 **Axios** (Requêtes API) - (Can change) 
+- 🔗 **Axios** (Requêtes API) - (Peut changer) 
 
 ---
 
