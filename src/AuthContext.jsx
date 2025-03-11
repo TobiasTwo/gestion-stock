@@ -31,7 +31,12 @@ export function AuthProvider({ children }) {
   const login = (userData) => {
     Cookies.set("user", JSON.stringify(userData), { expires: 1 }); // Expire dans 1 jour
     setUser(userData);
-    navigate("/"); // Redirige vers le Dashboard après connexion
+    // Redirection en fonction du rôle
+    if (userData.role === 'admin') {
+      navigate("/"); // Dashboard admin
+    } else {
+      navigate("/client/products"); // Page produits pour les clients
+    }
   };
 
   // Fonction de déconnexion
