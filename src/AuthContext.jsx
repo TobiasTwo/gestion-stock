@@ -34,7 +34,7 @@ export function AuthProvider({ children }) {
     // Redirection en fonction du rôle
     if (userData.role === 'admin') {
       navigate("/"); // Dashboard admin
-    } else {
+    } else if (userData.role === 'client') {
       navigate("/client/products"); // Page produits pour les clients
     }
   };
