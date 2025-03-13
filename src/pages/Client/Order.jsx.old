@@ -224,6 +224,9 @@ export default function OrderPage() {
                     <div key={index} className="flex items-start gap-4">
                       <div className="relative">
                         <div className="w-4 h-4 rounded-full bg-blue-600 mt-1"></div>
+                        {index < trackingInfo.history.length - 1 && (
+                          <div className="absolute top-5 bottom-0 left-2 w-0.5 -ml-px bg-blue-200 h-full"></div>
+                        )}
                       </div>
                       <div className="flex-1">
                         <p className="font-medium">{event.status}</p>

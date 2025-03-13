@@ -19,7 +19,6 @@ export default function Sidebar() {
     { path: '/client/cart', label: 'Panier', icon: '🛒' },
     { path: '/client/orders', label: 'Mes Commandes', icon: '📦' },
     { path: '/client/profile', label: 'Mon Profil', icon: '👤' },
-    { path: '/client/tracking', label: 'Suivi', icon: '🚚' }
   ];
 
   const links = user?.role === 'admin' ? adminLinks : clientLinks;
