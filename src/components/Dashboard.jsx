@@ -5,6 +5,7 @@ import Sidebar from './Sidebar';
 
 export default function Dashboard() {
   const { user, logout } = useAuth();
+  const cart = "";
 
   if (!user) {
     return <Navigate to="/login" />;
@@ -21,6 +22,8 @@ export default function Dashboard() {
                 <h1 className="text-xl font-bold">Gestion Stock</h1>
               </div>
               <div className="flex items-center">
+                
+                <span className="mr-4"></span>
                 <span className="mr-4">{user.username}</span>
                 <button
                   onClick={logout}
