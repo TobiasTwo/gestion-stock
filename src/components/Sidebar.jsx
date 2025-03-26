@@ -29,7 +29,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className={`transition-all duration-300 ${isOpen ? 'w-64' : 'w-16'} bg-gray-800 min-h-screen text-white p-4 relative`}>
+    <div className={`transition-all duration-300 ${isOpen ? 'w-64' : 'w-18'} bg-gray-800 min-h-screen text-white p-4 relative`}>
       {/* Bouton pour fermer/ouvrir la sidebar */}
       <button 
         onClick={toggleSidebar}
